@@ -5,11 +5,13 @@ import "./Btn_sidebar.scss";
 
 const Btn_sidebar = ({ name, img, arrow }) => {
   return (
-    <div className="sidebar_btn">
+    <div className="sidebar_btn_container">
+      <div className="sidebar_btn">
         <img src={item} alt="sidebar_btn" />
         <span>
           {name} <span>{arrow}</span>
         </span>
+      </div>
     </div>
   );
 };

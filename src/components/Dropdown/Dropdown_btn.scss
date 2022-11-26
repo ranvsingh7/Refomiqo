@@ -1,3 +1,4 @@
+
 .dropdown_title{
     width: 228px;
     height: 40px;
@@ -11,7 +12,9 @@
     >img{
         padding: 11px 12px 11px 17px;
     }
+
     >span{
+        height: 100%;
         font-size: 15px;
         font-weight: 600;
         color: #697a8d;
@@ -37,9 +40,22 @@
     font-size: 15px;
     font-weight: 400;
     color: #697a8d;
+    
+
 
 
    
+}
+
+.active>.btn_container{
+    border-right: 4px solid #696cff;
+
+    .dropdown_title{
+        background-color: rgba(105, 108, 255 ,.1599);
+        span{
+            color: #696cff;
+        }
+    }
 }
 
 .rotate {

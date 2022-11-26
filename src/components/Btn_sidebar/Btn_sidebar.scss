@@ -21,3 +21,17 @@
         justify-content: space-between;
     }
 }
+.active>.sidebar_btn_container{
+    border-right: 4px solid #696cff;
+
+    .sidebar_btn{
+        background-color: rgba(105, 108, 255 ,.1599);
+        span{
+            color: #696cff;
+        }
+        .btn_container{
+            border-right: 4px solid;
+        }
+    }
+
+}

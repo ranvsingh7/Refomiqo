@@ -83,18 +83,19 @@ body{
     a{
         text-decoration: none;
     }
-    .active>.sidebar_btn{
-        background-color: rgba(105, 108, 255 ,.1599);
-        span{
-            color: #696cff;
-        }
-    }
-    .active>.dropdown_title{
-        background-color: rgba(105, 108, 255 ,.1599);
-        span{
-            color: #696cff;
-        }
-    }
+
+    
+    // .active>div>.sidebar_btn{
+    //     background-color: rgba(105, 108, 255 ,.1599);
+    //     span{
+    //         color: #696cff;
+    //     }
+    //     .btn_container{
+    //         border-right: 4px solid;
+    //     }
+    // }
+    
+    
 }
 
 
@@ -107,14 +108,13 @@ body{
 
     .sidebar_mini{
     width: 85px;
+    margin-right: 115px;
     
 
     .sidebar_logo{
-        padding: 17px 87px 17px 23px;
-        position: relative;
+
         img{
             width: 42px;
-            height: 15px;
         }
     }
     .collapse_btn{
@@ -126,27 +126,11 @@ body{
 
     .group{
         svg{
-            width: 16px;
-            height: 2px;
             margin: auto;
-            rect{
-                width: 16px;
-                height: 2px;
-                fill: rgba(142,156,170,0.5019607843137255 );
-            }
         }
         .group_name{
-            display: flex;
-            align-items: center;
-            margin-top: 30px;
     
             span{
-                // color: #8e9caa;
-                // font-size: 13px;
-                // font-weight: 400;
-                // margin-left: 11px;
-                // display: flex;
-                // align-items: center;
                 display: none;
             }
         }
@@ -157,16 +141,8 @@ body{
 
     .sidebar_btn{
         width: 55px;
-        height: 40px;
-        // border: 1px solid rebeccapurple;
-        border-radius: 5px;
-        margin: 10px 15px 10px 17px;
-        display: flex;
-        align-items: center;
-    
-        >img{
-            padding: 11px 12px 11px 17px;
-        }
+
+
         >span{
             display: none;
         }
@@ -175,19 +151,14 @@ body{
 
     .dropdown_title{
         width: 55px;
-        height: 40px;
-        margin: 10px 15px 10px 17px;
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
-    
-    
-        >img{
-            padding: 11px 12px 11px 17px;
-        }
+
         >span{
             display: none;
         }
+        
+    }
+    .dropdown_item{
+        display: none;
     }
 
 }
